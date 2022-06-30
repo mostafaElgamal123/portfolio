@@ -1,0 +1,102 @@
+/* style header */
+
+.header{
+    background-color: #fff;
+    padding: 10px 0;
+    transition: 0.5s;
+    z-index: 3;
+    .container{
+        width: 85%;
+        nav{
+            display: flex;
+            align-items: center;
+            .logo{
+                img{
+                    width: 100%;
+                }
+            }
+            .hire-me{
+                text-decoration: none;
+                padding: 6px 25px;
+                background-color: #fc6900cc;
+                color: #fff;
+                border-radius: 20px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #fc6900df;
+                }
+            }
+            .menu{
+                margin-left: 160px;
+                .title{
+                    display: none;
+                }
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 0;
+                    padding-left: 0;
+                    li{
+                        list-style: none;
+                        margin-right: 35px;
+                        a{
+                            text-decoration: none;
+                            font-size: 20px;
+                            color: rgba(24, 82, 191, 0.977);
+                            transition: 0.2s;
+                            &:hover{
+                                color: #fc6900cc;
+                            }
+                        }
+                    }
+                }
+            }
+            #toggle {
+                display: none;
+                width: 28px;
+                height: 6px;
+                span{
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 5px;
+                    background-color: #888;
+                    transition: all 0.3s;
+                    backface-visibility: hidden;
+                    border-radius: 2px;
+                    &::after,
+                    &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: -9px;
+                    width: 100%;
+                    height: 5px;
+                    background-color: #888;
+                    transition: all 0.3s;
+                    backface-visibility: hidden;
+                    border-radius: 2px;
+                    }
+                    &::after{
+                        top: 9px;
+                    }
+                }
+                /* on activation */
+                &.on span {
+                    background-color: transparent;
+                }
+                &.on span:before {
+                    transform: rotate(45deg) translate(5px, 5px);
+                }
+                &.on span:after {
+                    transform: rotate(-45deg) translate(7px, -8px);
+                }
+              }
+        }
+    }
+}
+
+
+
+/* end style header */

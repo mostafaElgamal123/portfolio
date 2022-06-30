@@ -1,0 +1,98 @@
+/* style my contact */
+
+.items_my_contact{
+    padding: 50px 0;
+    .container{
+        width: 70%;
+        .form-control{
+            color: rgba(31, 30, 30, 0.747) !important;
+            border-radius: 0;
+            font-size: 16px;
+            opacity: 0.5;
+            transition: 0.5s;
+        }
+        .form-control{
+            &:focus{
+                color: #212529;
+                background-color: #fff;
+                border-color: 0;
+                outline: 0;
+                box-shadow: none;
+                opacity: 1;
+            }
+        }
+        .form-floating{
+            .form-control{
+                color: rgba(31, 30, 30, 0.747) !important;
+                border-radius: 0;
+                font-size: 16px;
+                opacity: 0.5;
+                transition: 0.5s;
+            }
+            .form-control{
+                &:focus{
+                    color: #212529;
+                    background-color: #fff;
+                    border-color: 0;
+                    outline: 0;
+                    box-shadow: none;
+                    opacity: 1;
+                }
+            }
+        }
+        .btn_sub{
+            padding: 8px 35px;
+            background-color: #f28a41;
+            border: 0;
+            color: #fff;
+            border-radius: 20px;
+            transition: 0.5s;
+            &:hover{
+                background-color: #f28b41cd;
+            }
+        }
+        .item_contact_socal{
+            .item{
+                display: flex;
+                align-items: flex-start;
+                .item_icon{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #f28a41;
+                    margin-right: 20px;
+                    margin-top: 6px;
+                    position: relative;
+                    .icon_item{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translateX(-50%) translateY(-50%);
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                }
+                .item_data{
+                    h3{
+                        font-size: 20px;
+                        color: #000;
+                    }
+                    p{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        line-height: 1;
+                        span{
+                            font-size: 13px;
+                            color: #9fa0a0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+/* end style my contact */

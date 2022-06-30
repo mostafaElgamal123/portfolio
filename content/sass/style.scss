@@ -1,0 +1,28 @@
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cccccd09
+}
+
+
+@import 'header/_header';
+@import 'media/header/_header';
+@import 'sections/_banner';
+@import 'media/sections/_banner';
+@import 'sections/_my-intro';
+@import 'media/sections/_my-intro';
+@import 'sections/_my-skills';
+@import 'media/sections/_my-skills';
+@import 'sections/_my-qualification';
+@import 'media/sections/___my-qualification';
+@import 'sections/_my-portfolio';
+@import 'media/sections/_my-portfolio';
+@import 'sections/_my-testimonial';
+@import 'media/sections/_my-testimonial';
+@import 'sections/_my-contact';
+@import 'media/sections/_my-contact';
+@import 'footer/_footer';
+@import 'animate/_animate';
+@import 'component/_component';
+@import 'media/component/_component';

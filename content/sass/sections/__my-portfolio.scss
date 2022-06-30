@@ -1,0 +1,96 @@
+/* style my portfolio */
+
+.items_my_portfolio{
+    padding: 50px 0;
+    background-color: #0388910f;
+    .container{
+        width: 60%;
+        .my_portfolio{
+            position: relative;
+            cursor: pointer;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 8px 0 rgb(120, 116, 116);
+            transition: 0.5s;
+            &::before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 333px;
+                background-color: #da5f07d1;
+                transition: 0.5s;
+            }
+            &:hover::before{
+                content: "";
+                bottom: 0;
+            }
+            .my_portfolio_image{
+                img{
+                    width: 100%;
+                }
+            }
+            .my_portfolio_content{
+                position: absolute;
+                top: -100%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                transition: 0.5s;
+                .group_btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        text-decoration: none;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 4px;
+                        background-color: #fff;
+                        display: inline-block;
+                        position: relative;
+                        margin-right: 10px;
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        .icon_my_portfolio_content{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateX(-50%) translateY(-50%);
+                            color: #3e4040c3;
+                        }
+                    }
+                }
+                h3{
+                    color: #fff;
+                    margin-top: 10px;
+                    font-size: 30px;
+                }
+            }
+            &:hover{
+                .my_portfolio_content{
+                    top: 50%;
+                }
+            }
+        }
+        .more_portfolio{
+            margin-top: 50px;
+            text-align: center;
+            a{
+                text-decoration: none;
+                background-color: #f67111b8;
+                color: #fff;
+                padding:10px 30px;
+                border-radius: 20px;
+                transition: 0.5s;
+                &:hover{
+                    background-color: #fd6a01f7;
+                }
+            }
+        }
+    }
+}
+
+
+/*end style my portfolio */

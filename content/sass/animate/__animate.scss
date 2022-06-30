@@ -1,0 +1,17 @@
+/* style animate */
+
+
+@keyframes animate_arrow_top {
+    0%{
+        transform: scale(0.5,0.5);
+    }
+    100%{
+        transform: scale(1.6,1.6);
+        opacity: 0;
+    }
+}
+
+
+
+
+/* end style animate */

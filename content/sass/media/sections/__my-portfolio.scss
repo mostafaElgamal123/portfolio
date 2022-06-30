@@ -1,0 +1,18 @@
+/* style media my portfolio */
+
+@media (max-width:1025px) {
+    .items_my_portfolio{
+        .container{
+            width: 80%;
+        }
+    }
+}
+@media (max-width:768px) {
+    .items_my_portfolio{
+        .container{
+            width: 90%;
+        }
+    }
+}
+
+/*end style media my portfolio */

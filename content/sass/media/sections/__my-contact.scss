@@ -1,0 +1,63 @@
+/* style media my contact */
+
+@media (max-width:1026px) {
+    .items_my_contact{
+        padding: 50px 0;
+        .container{
+            width: 80%;
+        }
+    }
+}
+@media (max-width:426px) {
+    .items_my_contact{
+        padding: 50px 0;
+        .container{
+            width: 90%;
+            .item_contact_socal{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .item{
+                    display: flex;
+                    align-items: flex-start;
+                    .item_icon{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        background-color: #f28a41;
+                        margin-right: 20px;
+                        margin-top: 6px;
+                        position: relative;
+                        .icon_item{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translateX(-50%) translateY(-50%);
+                            color: #fff;
+                            font-size: 18px;
+                        }
+                    }
+                    .item_data{
+                        h3{
+                            font-size: 20px;
+                            color: #000;
+                        }
+                        p{
+                            display: flex;
+                            align-items: flex-start;
+                            flex-direction: column;
+                            line-height: 1;
+                            span{
+                                font-size: 13px;
+                                color: #9fa0a0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*end style media media my contact */

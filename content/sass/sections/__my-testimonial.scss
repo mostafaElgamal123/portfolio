@@ -1,0 +1,77 @@
+/* style my testimonial */
+
+
+.items_my_testimonial{
+    padding: 50px 0;
+    background-image: url('../images/client-saying/demo2-bg2.jpg');
+    background-size: auto;
+    .container{
+        width: 70%;
+        .items_client_comment{
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            .items_client_data_top{
+                margin-bottom: 20px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 100%;
+                .items_client_ava{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        border: 2px solid #c19401c1;
+                    }
+                    .items_client_ava_detials{
+                        padding: 10px;
+                        padding-left: 20px;
+                        h3{
+                            color: #01115bf5;
+                            font-size: 18px;
+                            font-weight: 900;
+                        }
+                        span{
+                            color: rgb(116, 114, 114);
+                            font-weight: 100;
+                        }
+                    }
+                }
+                .items_client_rata{
+                    padding: 20px 0;
+                    padding-top: 23px;
+                    .icon_rate_client{
+                        font-size: 16px;
+                        color: #fc9301e1;
+                    }
+                }
+            }
+            p{
+                font-size: 14px;
+                color: rgba(112, 110, 110, 0.902);
+            }
+        }
+        .owl-theme{
+            z-index: 0;
+            .owl-dots{
+                .owl-dot{
+                    &.active{
+                        span{
+                            background-color: #fc9301e1 !important;
+                        }
+                    } 
+                }
+            }
+        }  
+        .owl-nav{
+            display: none;
+        }
+    }
+}
+
+
+
+/* end style my testimonial */

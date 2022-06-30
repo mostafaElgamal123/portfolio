@@ -1,0 +1,181 @@
+/* style media my testimonial */
+
+@media (max-width:1025px) {
+    .items_my_testimonial{
+        padding: 50px 0;
+        .container{
+            width: 80%;
+        }
+    }
+}
+@media (max-width:426px) {
+    .items_my_testimonial{
+        padding: 50px 0;
+        .container{
+            width: 90%;
+            .items_client_comment{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                .items_client_data_top{
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    width: 100%;
+                    .items_client_ava{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            width: 80px;
+                            height: 80px;
+                            border-radius: 50%;
+                            border: 2px solid #c19401c1;
+                        }
+                        .items_client_ava_detials{
+                            padding: 10px;
+                            padding-left: 20px;
+                            h3{
+                                color: #01115bf5;
+                                font-size: 15px;
+                                font-weight: 900;
+                            }
+                            span{
+                                color: rgb(116, 114, 114);
+                                font-weight: 100;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .items_client_rata{
+                        padding: 20px 0;
+                        padding-top: 13px;
+                        .icon_rate_client{
+                            font-size: 13px;
+                            color: #fc9301e1;
+                        }
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    color: rgba(112, 110, 110, 0.902);
+                }
+            }
+        }
+    }
+}
+@media (max-width:376px) {
+    .items_my_testimonial{
+        padding: 50px 0;
+        .container{
+            width: 90%;
+            .items_client_comment{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                .items_client_data_top{
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    width: 100%;
+                    .items_client_ava{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                            border: 2px solid #c19401c1;
+                        }
+                        .items_client_ava_detials{
+                            padding: 10px;
+                            padding-left: 11px;
+                            h3{
+                                color: #01115bf5;
+                                font-size: 14px;
+                                font-weight: 900;
+                            }
+                            span{
+                                color: rgb(116, 114, 114);
+                                font-weight: 100;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .items_client_rata{
+                        padding: 20px 0;
+                        padding-top: 6px;
+                        .icon_rate_client{
+                            font-size: 11px;
+                            color: #fc9301e1;
+                        }
+                    }
+                }
+                p{
+                    font-size: 12px;
+                    color: rgba(112, 110, 110, 0.902);
+                }
+            }
+        }
+    }
+}
+@media (max-width:321px) {
+    .items_my_testimonial{
+        padding: 50px 0;
+        .container{
+            width: 90%;
+            .items_client_comment{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                .items_client_data_top{
+                    margin-bottom: 0;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-between;
+                    width: 100%;
+                    flex-direction: column;
+                    .items_client_ava{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                            border: 2px solid #c19401c1;
+                        }
+                        .items_client_ava_detials{
+                            padding: 10px;
+                            padding-left: 11px;
+                            h3{
+                                color: #01115bf5;
+                                font-size: 14px;
+                                font-weight: 900;
+                            }
+                            span{
+                                color: rgb(116, 114, 114);
+                                font-weight: 100;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .items_client_rata{
+                        padding: 20px 0;
+                        padding-top: 6px;
+                        padding-bottom: 10px;
+                        .icon_rate_client{
+                            font-size: 11px;
+                            color: #fc9301e1;
+                        }
+                    }
+                }
+                p{
+                    font-size: 12px;
+                    color: rgba(112, 110, 110, 0.902);
+                }
+            }
+        }
+    }
+}
+/* end style media my testimonial */
